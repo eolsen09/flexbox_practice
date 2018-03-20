@@ -9,4 +9,5 @@ var ratings = 'Ratings: 3.4, 5.0, 4.2';
 console.log(ratings);
 
 var avgRating = (3.4 + 5.0 + 4.2)/3;
-console.log(avgRating);
+
+console.log('Avg Rating: ' + avgRating);
