@@ -5,9 +5,8 @@ console.log(teacher1);
 var department1 = 'Department: Physics';
 console.log(department1);
 
-var ratings = 'Ratings: 3.4, 5.0, 4.2';
-console.log(ratings);
+var oetjenRating = [3.4, 5.0, 4.2];
 
-var avgRating = (3.4 + 5.0 + 4.2)/3;
+var getRatingAvg = oetjenRating.reduce((total, oetjenRating) => total + oetjenRating) / oetjenRating.length;
 
-console.log('Avg Rating: ' + avgRating);
+console.log(getRatingAvg); 
