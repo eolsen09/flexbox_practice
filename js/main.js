@@ -9,4 +9,12 @@ var oetjenRating = [3.4, 5.0, 4.2];
 
 var getRatingAvg = oetjenRating.reduce((total, oetjenRating) => total + oetjenRating) / oetjenRating.length;
 
-console.log(getRatingAvg); 
+console.log(getRatingAvg);
+
+console.log(oetjenRating.push(5.0));
+
+console.log(oetjenRating);
+
+var getRatingAvg = oetjenRating.reduce((total, oetjenRating) => total + oetjenRating) / oetjenRating.length;
+
+console.log(getRatingAvg);
