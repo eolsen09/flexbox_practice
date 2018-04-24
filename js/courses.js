@@ -29,3 +29,47 @@ function pickScience(courses) {
 }
 
 pickScience(fallCourses)
+
+var fallCourses = [
+{
+    "department": "Science",
+  "course": "Astronomy"
+ },
+ {
+    "department": "Life Science",
+  "course": "Biology"
+ },
+ {
+ "department": "Computer Science",
+ "course": "Web Development"
+ },
+ {
+ "department": "Mathematics",
+ "course": "Geometry"
+ },
+ {
+ "department": "World Religions",
+ "course": "Buddhism"
+ }
+];
+var userResponse = window.prompt(
+    `What course would you like to pick?`
+    );
+// turn this back on or off
+function isValidCourse (course) {
+    for (var i = 0; i < fallCourses.length; i++) {
+        if (fallCourses[i].course == course) {
+      console.log("found correct course");
+            return true;
+        }
+    }
+  console.log("course does not exist");
+    return false;
+}
+var successMsg = ('Enjoy ' + userResponse + '!');
+var notFoundMsg = ('Please enter valid course.');
+if (isValidCourse(userResponse) === true) {
+  alert (successMsg);
+} else {
+  alert (notFoundMsg);
+}
