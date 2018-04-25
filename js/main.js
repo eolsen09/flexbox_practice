@@ -62,8 +62,10 @@ function addTeacherRating (ratings, newRating) {
 
 do {
   var userRating = window.prompt('We would like for you to review Erika Olsen. Please enter a rating between 0.0 - 5.0')
+  console.log(userRating);
+  var userRatingInt = parseInt(userRating);
 }
 while (!(userRating >= 0.0 && userRating <= 5.0));
 
-addTeacherRating (olsenRating, userRating)
+addTeacherRating (olsenRating, userRatingInt)
 alert ('Thank you for your review! ' + teacher4 + ' average rating is now ' + getRatingAvg(olsenRating) + '.');
