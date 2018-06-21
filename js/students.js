@@ -26,7 +26,19 @@ var classYear = [
   "gClass": "High School Sophmore"},
 
   {"gYear": 2021,
-  "gClass": "High School Freshman"}
+  "gClass": "High School Freshman"},
+
+  {"gYear": 2022,
+  "gClass": "College Freshman"},
+
+  {"gYear": 2023,
+  "gClass": "College Sophmore"},
+
+  {"gYear": 2024,
+  "gClass": "College Junior"},
+
+  {"gYear": 2025,
+  "gClass": "College Senior"}
 ];
 
 var yearPrompt = prompt("What month are you graduating?");

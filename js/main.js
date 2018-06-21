@@ -86,7 +86,9 @@ var Teacher = function(name, department, ratings) {
 var newTeachers = [
   new Teacher ("Kinsey Oetjen", "Physics", [3.4, 5.0, 4.2]),
   new Teacher ("Michelle Reuther", "Science", [3.5, 3.5, 3.5]),
-  new Teacher ("Erika Olsen", "Computer Science", [4.0, 4.0, 4.2])
+  new Teacher ("Erika Olsen", "Computer Science", [4.0, 4.0, 4.2]),
+  new Teacher ("Lucia Brodribb", "Mathematics", [3.3, 3.5, 4.1]),
+  new Teacher ("Bridgett Johnson", "World Religions", [2.3, 3.0, 3.4])
 ];
 
 var teacherPrompt = prompt("Who is your teacher?");
